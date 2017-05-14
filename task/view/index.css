@@ -1,0 +1,95 @@
+
+body {
+    background-image: url("src/aleksandriyskaya-biblioteka-egipet_001-min.jpg");
+    background-size: 100%;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+
+}
+#unesco_logo {
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 22%;
+}
+
+.references_upld_lk {
+    font-size: 3.5vw;
+    color: whitesmoke;
+    width: 40%;
+    min-height: 450px;
+    background-size: cover;
+    max-height: 700px;
+    display: inline-flex;
+    margin: 1%;
+    border-radius: 3px;
+    background: no-repeat center;
+    padding: 2%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height: 100%;
+}
+#upload {
+    background-image: url("src/dji-drone-identification-1.jpg");
+    margin-left: 5%;
+    text-shadow: 1px 1px 1px 1px black;
+}
+
+#logo_di {
+    color: whitesmoke;
+    font-size: 5vw;
+    padding-left: 5%;
+}
+
+#look {
+    background-image: url("src/kniga1.jpg");
+    text-shadow: 1px 1px 1px 1px black;
+}
+
+@media all and (max-width: 1000px) and (min-width: 100px){
+    #upload {
+        min-height: 250px;
+        max-height: 30%;
+        width: 92%;
+        display: flex;
+        border-radius: 3px;
+        font-size: 6vw;
+        align-items: flex-end;
+        margin: 2%;
+    }
+    #look {
+        font-size: 6vw;
+        min-height: 250px;
+        max-height: 30%;
+        width: 92%;
+        display: flex;
+        border-radius: 3px;
+        margin: 2%;
+    }
+    #unesco_logo {
+        max-height: 90px;
+        max-width: 90px;
+        margin-right: 2%;
+    }
+    table {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        opacity: 0.97;
+        border-radius: 3px;
+    }
+
+    #logo_di {
+        color: black;
+        font-size: 5vw;
+    }
+}
+
+.smaller-img {
+    cursor: pointer;
+    transition: 0.5s;
+}
+.smaller-img:hover {
+    opacity: 0.8;
+}
