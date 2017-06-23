@@ -2,7 +2,7 @@
 Test task from Phoundry.
 
 Create a service to upload, save and sort photos.
-Tryied to realise infinite scroll, then broke search, but scroll working. (Type of pagination)
+Tried to realise infinite scroll, then broke search, but scroll working. (Type of pagination)
 Used: PHP, MySQL, AJAX
 
 To see how it's working I was using MAMP.
